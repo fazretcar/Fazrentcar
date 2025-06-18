@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fazrent - Enjoy Your Drive</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: silver;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: url('hero-mobil.jpg') no-repeat center center/cover;
+      position: relative;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: red;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .fleet-card {
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .fleet-card h3 {
+      color: silver;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="fazrent-logo.png" alt="Fazrent Logo">
+    <nav>
+      <a href="#home">Beranda</a>
+      <a href="#about">Tentang</a>
+      <a href="#fleet">Daftar Mobil</a>
+      <a href="#how">Cara Sewa</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h1>FAZRENT</h1>
+    <p>Enjoy Your Drive</p>
+    <a href="https://wa.me/628112440330" class="btn">Sewa Sekarang</a>
+  </div>
+
+  <section id="about">
+    <h2>Tentang Kami</h2>
+    <p>Fazrent adalah layanan rental mobil terpercaya di Majalengka. Menyediakan mobil terbaik untuk berbagai keperluan Anda — baik dengan sopir maupun lepas kunci.</p>
+  </section>
+
+  <section id="fleet">
+    <h2>Daftar Mobil</h2>
+    <div class="fleet-card">
+      <h3>Honda BR-V 2022</h3>
+      <p>Rp450.000 / hari | Lepas Kunci / Sopir</p>
+      <a class="btn" href="https://wa.me/628112440330">Pesan Sekarang</a>
+    </div>
+    <div class="fleet-card">
+      <h3>Toyota Avanza 2023</h3>
+      <p>Rp400.000 / hari | Lepas Kunci / Sopir</p>
+      <a class="btn" href="https://wa.me/628112440330">Pesan Sekarang</a>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>Cara Sewa</h2>
+    <ol>
+      <li>Pilih mobil sesuai kebutuhan</li>
+      <li>Hubungi kami melalui WhatsApp</li>
+      <li>Lakukan verifikasi & pembayaran</li>
+      <li>Mobil siap antar atau ambil sendiri</li>
+    </ol>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p>WhatsApp: <a class="btn" href="https://wa.me/628112440330">0811-2440-330</a></p>
+    <p>Lokasi: Majalengka, Jawa Barat</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fazrent. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
